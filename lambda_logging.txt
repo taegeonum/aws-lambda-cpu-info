@@ -1,0 +1,976 @@
+[------------------- Printing log stream  2021/03/03/[$LATEST]8e8dbe8a4cdf479297b7af5260d5d262 -----------------]
+21/03/03 19:18:10 21/03/03 10:18:10 INFO : Handler is created!
+21/03/03 19:18:11 START RequestId: 10530a91-b4e7-45e7-a310-cc998d8f3cb8 Version: $LATEST
+21/03/03 19:18:11 21/03/03 10:18:11 INFO : Function memory limit 5800 MB
+21/03/03 19:18:11 21/03/03 10:18:11 INFO : Worker info 0 mac addressF2-C3-D9-B0-7B-59
+21/03/03 19:18:11 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:18:11 processor	: 0
+21/03/03 19:18:11 vendor_id	: GenuineIntel
+21/03/03 19:18:11 cpu family	: 6
+21/03/03 19:18:11 model		: 63
+21/03/03 19:18:11 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:11 stepping	: 2
+21/03/03 19:18:11 microcode	: 0x1
+21/03/03 19:18:11 cpu MHz		: 2500.012
+21/03/03 19:18:11 cache size	: 33792 KB
+21/03/03 19:18:11 physical id	: 0
+21/03/03 19:18:11 siblings	: 4
+21/03/03 19:18:11 core id		: 0
+21/03/03 19:18:11 cpu cores	: 4
+21/03/03 19:18:11 apicid		: 0
+21/03/03 19:18:11 initial apicid	: 0
+21/03/03 19:18:11 fpu		: yes
+21/03/03 19:18:11 fpu_exception	: yes
+21/03/03 19:18:11 cpuid level	: 13
+21/03/03 19:18:11 wp		: yes
+21/03/03 19:18:11 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:11 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:11 bogomips	: 5000.02
+21/03/03 19:18:11 clflush size	: 64
+21/03/03 19:18:11 cache_alignment	: 64
+21/03/03 19:18:11 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:11 power management:
+21/03/03 19:18:11 processor	: 1
+21/03/03 19:18:11 vendor_id	: GenuineIntel
+21/03/03 19:18:11 cpu family	: 6
+21/03/03 19:18:11 model		: 63
+21/03/03 19:18:11 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:11 stepping	: 2
+21/03/03 19:18:11 microcode	: 0x1
+21/03/03 19:18:11 cpu MHz		: 2500.012
+21/03/03 19:18:11 cache size	: 33792 KB
+21/03/03 19:18:11 physical id	: 0
+21/03/03 19:18:11 siblings	: 4
+21/03/03 19:18:11 core id		: 1
+21/03/03 19:18:11 cpu cores	: 4
+21/03/03 19:18:11 apicid		: 1
+21/03/03 19:18:11 initial apicid	: 1
+21/03/03 19:18:11 fpu		: yes
+21/03/03 19:18:11 fpu_exception	: yes
+21/03/03 19:18:11 cpuid level	: 13
+21/03/03 19:18:11 wp		: yes
+21/03/03 19:18:11 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:11 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:11 bogomips	: 5000.02
+21/03/03 19:18:11 clflush size	: 64
+21/03/03 19:18:11 cache_alignment	: 64
+21/03/03 19:18:11 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:11 power management:
+21/03/03 19:18:11 processor	: 2
+21/03/03 19:18:11 vendor_id	: GenuineIntel
+21/03/03 19:18:11 cpu family	: 6
+21/03/03 19:18:11 model		: 63
+21/03/03 19:18:11 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:11 stepping	: 2
+21/03/03 19:18:11 microcode	: 0x1
+21/03/03 19:18:11 cpu MHz		: 2500.012
+21/03/03 19:18:11 cache size	: 33792 KB
+21/03/03 19:18:11 physical id	: 0
+21/03/03 19:18:11 siblings	: 4
+21/03/03 19:18:11 core id		: 2
+21/03/03 19:18:11 cpu cores	: 4
+21/03/03 19:18:11 apicid		: 2
+21/03/03 19:18:11 initial apicid	: 2
+21/03/03 19:18:11 fpu		: yes
+21/03/03 19:18:11 fpu_exception	: yes
+21/03/03 19:18:11 cpuid level	: 13
+21/03/03 19:18:11 wp		: yes
+21/03/03 19:18:11 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:11 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:11 bogomips	: 5000.02
+21/03/03 19:18:11 clflush size	: 64
+21/03/03 19:18:11 cache_alignment	: 64
+21/03/03 19:18:11 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:11 power management:
+21/03/03 19:18:11 processor	: 3
+21/03/03 19:18:11 vendor_id	: GenuineIntel
+21/03/03 19:18:11 cpu family	: 6
+21/03/03 19:18:11 model		: 63
+21/03/03 19:18:11 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:11 stepping	: 2
+21/03/03 19:18:11 microcode	: 0x1
+21/03/03 19:18:11 cpu MHz		: 2500.012
+21/03/03 19:18:11 cache size	: 33792 KB
+21/03/03 19:18:11 physical id	: 0
+21/03/03 19:18:11 siblings	: 4
+21/03/03 19:18:11 core id		: 3
+21/03/03 19:18:11 cpu cores	: 4
+21/03/03 19:18:11 apicid		: 3
+21/03/03 19:18:11 initial apicid	: 3
+21/03/03 19:18:11 fpu		: yes
+21/03/03 19:18:11 fpu_exception	: yes
+21/03/03 19:18:11 cpuid level	: 13
+21/03/03 19:18:11 wp		: yes
+21/03/03 19:18:11 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:11 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:11 bogomips	: 5000.02
+21/03/03 19:18:11 clflush size	: 64
+21/03/03 19:18:11 cache_alignment	: 64
+21/03/03 19:18:11 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:11 power management:
+21/03/03 19:18:11 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:18:11 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:18:11 MemTotal:        7475396 kB
+21/03/03 19:18:11 MemFree:         7240868 kB
+21/03/03 19:18:11 MemAvailable:    7169312 kB
+21/03/03 19:18:11 Buffers:           21788 kB
+21/03/03 19:18:11 Cached:            96136 kB
+21/03/03 19:18:11 SwapCached:            0 kB
+21/03/03 19:18:11 Active:           106780 kB
+21/03/03 19:18:11 Inactive:          83180 kB
+21/03/03 19:18:11 Active(anon):      72096 kB
+21/03/03 19:18:11 Inactive(anon):      152 kB
+21/03/03 19:18:11 Active(file):      34684 kB
+21/03/03 19:18:11 Inactive(file):    83028 kB
+21/03/03 19:18:11 Unevictable:           0 kB
+21/03/03 19:18:11 Mlocked:               0 kB
+21/03/03 19:18:11 SwapTotal:             0 kB
+21/03/03 19:18:11 SwapFree:              0 kB
+21/03/03 19:18:11 Dirty:                92 kB
+21/03/03 19:18:11 Writeback:             0 kB
+21/03/03 19:18:11 AnonPages:         72192 kB
+21/03/03 19:18:11 Mapped:            57488 kB
+21/03/03 19:18:11 Shmem:               152 kB
+21/03/03 19:18:11 Slab:              17468 kB
+21/03/03 19:18:11 SReclaimable:       5660 kB
+21/03/03 19:18:11 SUnreclaim:        11808 kB
+21/03/03 19:18:11 KernelStack:        1600 kB
+21/03/03 19:18:11 PageTables:         1380 kB
+21/03/03 19:18:11 NFS_Unstable:          0 kB
+21/03/03 19:18:11 Bounce:                0 kB
+21/03/03 19:18:11 WritebackTmp:          0 kB
+21/03/03 19:18:11 CommitLimit:     3737696 kB
+21/03/03 19:18:11 Committed_AS:     494652 kB
+21/03/03 19:18:11 VmallocTotal:   34359738367 kB
+21/03/03 19:18:11 VmallocUsed:           0 kB
+21/03/03 19:18:11 VmallocChunk:          0 kB
+21/03/03 19:18:11 AnonHugePages:         0 kB
+21/03/03 19:18:11 ShmemHugePages:        0 kB
+21/03/03 19:18:11 ShmemPmdMapped:        0 kB
+21/03/03 19:18:11 HugePages_Total:       0
+21/03/03 19:18:11 HugePages_Free:        0
+21/03/03 19:18:11 HugePages_Rsvd:        0
+21/03/03 19:18:11 HugePages_Surp:        0
+21/03/03 19:18:11 Hugepagesize:       2048 kB
+21/03/03 19:18:11 DirectMap4k:       19456 kB
+21/03/03 19:18:11 DirectMap2M:     7659520 kB
+21/03/03 19:18:11 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:18:11 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:18:11 Inter-|   Receive                                                |  Transmit
+21/03/03 19:18:11 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:18:11 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:11 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:11 vinternal_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:11 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:11 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:18:11 END RequestId: 10530a91-b4e7-45e7-a310-cc998d8f3cb8
+21/03/03 19:18:11 REPORT RequestId: 10530a91-b4e7-45e7-a310-cc998d8f3cb8	Duration: 230.00 ms	Billed Duration: 231 ms	Memory Size: 5800 MB	Max Memory Used: 145 MB	Init Duration: 669.21 ms
+[------------------- Printing log stream  2021/03/03/[$LATEST]a9daa3ca53a7445f8950dda957d07e31 -----------------]
+21/03/03 19:20:43 21/03/03 10:20:43 INFO : Handler is created!
+21/03/03 19:20:43 START RequestId: 2062a3b9-3dd1-42be-a155-20d77b944513 Version: $LATEST
+21/03/03 19:20:43 21/03/03 10:20:43 INFO : Function memory limit 10240 MB
+21/03/03 19:20:43 21/03/03 10:20:43 INFO : Worker info 0 mac address2A-24-DC-98-E2-30
+21/03/03 19:20:43 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:20:43 processor	: 0
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 0
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 0
+21/03/03 19:20:43 initial apicid	: 0
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 processor	: 1
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 1
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 1
+21/03/03 19:20:43 initial apicid	: 1
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 processor	: 2
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 2
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 2
+21/03/03 19:20:43 initial apicid	: 2
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 processor	: 3
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 3
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 3
+21/03/03 19:20:43 initial apicid	: 3
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 processor	: 4
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 4
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 4
+21/03/03 19:20:43 initial apicid	: 4
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 processor	: 5
+21/03/03 19:20:43 vendor_id	: GenuineIntel
+21/03/03 19:20:43 cpu family	: 6
+21/03/03 19:20:43 model		: 63
+21/03/03 19:20:43 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:20:43 stepping	: 2
+21/03/03 19:20:43 microcode	: 0x1
+21/03/03 19:20:43 cpu MHz		: 2500.012
+21/03/03 19:20:43 cache size	: 36608 KB
+21/03/03 19:20:43 physical id	: 0
+21/03/03 19:20:43 siblings	: 6
+21/03/03 19:20:43 core id		: 5
+21/03/03 19:20:43 cpu cores	: 6
+21/03/03 19:20:43 apicid		: 5
+21/03/03 19:20:43 initial apicid	: 5
+21/03/03 19:20:43 fpu		: yes
+21/03/03 19:20:43 fpu_exception	: yes
+21/03/03 19:20:43 cpuid level	: 13
+21/03/03 19:20:43 wp		: yes
+21/03/03 19:20:43 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:20:43 bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs
+21/03/03 19:20:43 bogomips	: 5000.02
+21/03/03 19:20:43 clflush size	: 64
+21/03/03 19:20:43 cache_alignment	: 64
+21/03/03 19:20:43 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:20:43 power management:
+21/03/03 19:20:43 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:20:43 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:20:43 MemTotal:       10748784 kB
+21/03/03 19:20:43 MemFree:        10491516 kB
+21/03/03 19:20:43 MemAvailable:   10407608 kB
+21/03/03 19:20:43 Buffers:           22076 kB
+21/03/03 19:20:43 Cached:            96044 kB
+21/03/03 19:20:43 SwapCached:            0 kB
+21/03/03 19:20:43 Active:           112316 kB
+21/03/03 19:20:43 Inactive:          82852 kB
+21/03/03 19:20:43 Active(anon):      77280 kB
+21/03/03 19:20:43 Inactive(anon):      224 kB
+21/03/03 19:20:43 Active(file):      35036 kB
+21/03/03 19:20:43 Inactive(file):    82628 kB
+21/03/03 19:20:43 Unevictable:           0 kB
+21/03/03 19:20:43 Mlocked:               0 kB
+21/03/03 19:20:43 SwapTotal:             0 kB
+21/03/03 19:20:43 SwapFree:              0 kB
+21/03/03 19:20:43 Dirty:               276 kB
+21/03/03 19:20:43 Writeback:             0 kB
+21/03/03 19:20:43 AnonPages:         77452 kB
+21/03/03 19:20:43 Mapped:            57348 kB
+21/03/03 19:20:43 Shmem:               224 kB
+21/03/03 19:20:43 Slab:              19952 kB
+21/03/03 19:20:43 SReclaimable:       6704 kB
+21/03/03 19:20:43 SUnreclaim:        13248 kB
+21/03/03 19:20:43 KernelStack:        1824 kB
+21/03/03 19:20:43 PageTables:         1324 kB
+21/03/03 19:20:43 NFS_Unstable:          0 kB
+21/03/03 19:20:43 Bounce:                0 kB
+21/03/03 19:20:43 WritebackTmp:          0 kB
+21/03/03 19:20:43 CommitLimit:     5374392 kB
+21/03/03 19:20:43 Committed_AS:     685136 kB
+21/03/03 19:20:43 VmallocTotal:   34359738367 kB
+21/03/03 19:20:43 VmallocUsed:           0 kB
+21/03/03 19:20:43 VmallocChunk:          0 kB
+21/03/03 19:20:43 AnonHugePages:         0 kB
+21/03/03 19:20:43 ShmemHugePages:        0 kB
+21/03/03 19:20:43 ShmemPmdMapped:        0 kB
+21/03/03 19:20:43 HugePages_Total:       0
+21/03/03 19:20:43 HugePages_Free:        0
+21/03/03 19:20:43 HugePages_Rsvd:        0
+21/03/03 19:20:43 HugePages_Surp:        0
+21/03/03 19:20:43 Hugepagesize:       2048 kB
+21/03/03 19:20:43 DirectMap4k:       22528 kB
+21/03/03 19:20:43 DirectMap2M:    10981376 kB
+21/03/03 19:20:43 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:20:43 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:20:43 Inter-|   Receive                                                |  Transmit
+21/03/03 19:20:43 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:20:43 vinternal_1:       0       0    0    0    0     0          0         0       90       1    0    0    0     0       0          0
+21/03/03 19:20:43 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:20:43 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:20:43 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:20:43 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:20:43 END RequestId: 2062a3b9-3dd1-42be-a155-20d77b944513
+21/03/03 19:20:43 REPORT RequestId: 2062a3b9-3dd1-42be-a155-20d77b944513	Duration: 228.56 ms	Billed Duration: 229 ms	Memory Size: 10240 MB	Max Memory Used: 150 MB	Init Duration: 629.23 ms
+[------------------- Printing log stream  2021/03/03/[$LATEST]b74e9aa8368b412d963f24659465bf3d -----------------]
+21/03/03 19:17:17 21/03/03 10:17:17 INFO : Handler is created!
+21/03/03 19:17:18 START RequestId: 1a530dc9-e4db-4f41-976e-4aff19de68d0 Version: $LATEST
+21/03/03 19:17:18 21/03/03 10:17:18 INFO : Function memory limit 5200 MB
+21/03/03 19:17:18 21/03/03 10:17:18 INFO : Worker info 0 mac address3E-5D-C0-76-54-07
+21/03/03 19:17:18 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:17:18 processor	: 0
+21/03/03 19:17:18 vendor_id	: GenuineIntel
+21/03/03 19:17:18 cpu family	: 6
+21/03/03 19:17:18 model		: 63
+21/03/03 19:17:18 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:17:18 stepping	: 2
+21/03/03 19:17:18 microcode	: 0x1
+21/03/03 19:17:18 cpu MHz		: 2500.020
+21/03/03 19:17:18 cache size	: 33792 KB
+21/03/03 19:17:18 physical id	: 0
+21/03/03 19:17:18 siblings	: 3
+21/03/03 19:17:18 core id		: 0
+21/03/03 19:17:18 cpu cores	: 3
+21/03/03 19:17:18 apicid		: 0
+21/03/03 19:17:18 initial apicid	: 0
+21/03/03 19:17:18 fpu		: yes
+21/03/03 19:17:18 fpu_exception	: yes
+21/03/03 19:17:18 cpuid level	: 13
+21/03/03 19:17:18 wp		: yes
+21/03/03 19:17:18 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:17:18 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:17:18 bogomips	: 5000.04
+21/03/03 19:17:18 clflush size	: 64
+21/03/03 19:17:18 cache_alignment	: 64
+21/03/03 19:17:18 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:17:18 power management:
+21/03/03 19:17:18 processor	: 1
+21/03/03 19:17:18 vendor_id	: GenuineIntel
+21/03/03 19:17:18 cpu family	: 6
+21/03/03 19:17:18 model		: 63
+21/03/03 19:17:18 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:17:18 stepping	: 2
+21/03/03 19:17:18 microcode	: 0x1
+21/03/03 19:17:18 cpu MHz		: 2500.020
+21/03/03 19:17:18 cache size	: 33792 KB
+21/03/03 19:17:18 physical id	: 0
+21/03/03 19:17:18 siblings	: 3
+21/03/03 19:17:18 core id		: 1
+21/03/03 19:17:18 cpu cores	: 3
+21/03/03 19:17:18 apicid		: 1
+21/03/03 19:17:18 initial apicid	: 1
+21/03/03 19:17:18 fpu		: yes
+21/03/03 19:17:18 fpu_exception	: yes
+21/03/03 19:17:18 cpuid level	: 13
+21/03/03 19:17:18 wp		: yes
+21/03/03 19:17:18 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:17:18 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:17:18 bogomips	: 5000.04
+21/03/03 19:17:18 clflush size	: 64
+21/03/03 19:17:18 cache_alignment	: 64
+21/03/03 19:17:18 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:17:18 power management:
+21/03/03 19:17:18 processor	: 2
+21/03/03 19:17:18 vendor_id	: GenuineIntel
+21/03/03 19:17:18 cpu family	: 6
+21/03/03 19:17:18 model		: 63
+21/03/03 19:17:18 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:17:18 stepping	: 2
+21/03/03 19:17:18 microcode	: 0x1
+21/03/03 19:17:18 cpu MHz		: 2500.020
+21/03/03 19:17:18 cache size	: 33792 KB
+21/03/03 19:17:18 physical id	: 0
+21/03/03 19:17:18 siblings	: 3
+21/03/03 19:17:18 core id		: 2
+21/03/03 19:17:18 cpu cores	: 3
+21/03/03 19:17:18 apicid		: 2
+21/03/03 19:17:18 initial apicid	: 2
+21/03/03 19:17:18 fpu		: yes
+21/03/03 19:17:18 fpu_exception	: yes
+21/03/03 19:17:18 cpuid level	: 13
+21/03/03 19:17:18 wp		: yes
+21/03/03 19:17:18 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:17:18 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:17:18 bogomips	: 5000.04
+21/03/03 19:17:18 clflush size	: 64
+21/03/03 19:17:18 cache_alignment	: 64
+21/03/03 19:17:18 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:17:18 power management:
+21/03/03 19:17:18 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:17:18 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:17:18 MemTotal:        5652848 kB
+21/03/03 19:17:18 MemFree:         5423648 kB
+21/03/03 19:17:18 MemAvailable:    5359092 kB
+21/03/03 19:17:18 Buffers:           21772 kB
+21/03/03 19:17:18 Cached:            96140 kB
+21/03/03 19:17:18 SwapCached:            0 kB
+21/03/03 19:17:18 Active:           105192 kB
+21/03/03 19:17:18 Inactive:          82860 kB
+21/03/03 19:17:18 Active(anon):      70132 kB
+21/03/03 19:17:18 Inactive(anon):      220 kB
+21/03/03 19:17:18 Active(file):      35060 kB
+21/03/03 19:17:18 Inactive(file):    82640 kB
+21/03/03 19:17:18 Unevictable:           0 kB
+21/03/03 19:17:18 Mlocked:               0 kB
+21/03/03 19:17:18 SwapTotal:             0 kB
+21/03/03 19:17:18 SwapFree:              0 kB
+21/03/03 19:17:18 Dirty:               176 kB
+21/03/03 19:17:18 Writeback:             0 kB
+21/03/03 19:17:18 AnonPages:         70148 kB
+21/03/03 19:17:18 Mapped:            57612 kB
+21/03/03 19:17:18 Shmem:               224 kB
+21/03/03 19:17:18 Slab:              15464 kB
+21/03/03 19:17:18 SReclaimable:       5296 kB
+21/03/03 19:17:18 SUnreclaim:        10168 kB
+21/03/03 19:17:18 KernelStack:        1472 kB
+21/03/03 19:17:18 PageTables:         1320 kB
+21/03/03 19:17:18 NFS_Unstable:          0 kB
+21/03/03 19:17:18 Bounce:                0 kB
+21/03/03 19:17:18 WritebackTmp:          0 kB
+21/03/03 19:17:18 CommitLimit:     2826424 kB
+21/03/03 19:17:18 Committed_AS:     454244 kB
+21/03/03 19:17:18 VmallocTotal:   34359738367 kB
+21/03/03 19:17:18 VmallocUsed:           0 kB
+21/03/03 19:17:18 VmallocChunk:          0 kB
+21/03/03 19:17:18 AnonHugePages:         0 kB
+21/03/03 19:17:18 ShmemHugePages:        0 kB
+21/03/03 19:17:18 ShmemPmdMapped:        0 kB
+21/03/03 19:17:18 HugePages_Total:       0
+21/03/03 19:17:18 HugePages_Free:        0
+21/03/03 19:17:18 HugePages_Rsvd:        0
+21/03/03 19:17:18 HugePages_Surp:        0
+21/03/03 19:17:18 Hugepagesize:       2048 kB
+21/03/03 19:17:18 DirectMap4k:       21504 kB
+21/03/03 19:17:18 DirectMap2M:     5806080 kB
+21/03/03 19:17:18 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:17:18 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:17:18 Inter-|   Receive                                                |  Transmit
+21/03/03 19:17:18 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:17:18 vinternal_1:       0       0    0    0    0     0          0         0       90       1    0    0    0     0       0          0
+21/03/03 19:17:18 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:17:18 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:17:18 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:17:18 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:17:18 END RequestId: 1a530dc9-e4db-4f41-976e-4aff19de68d0
+21/03/03 19:17:18 REPORT RequestId: 1a530dc9-e4db-4f41-976e-4aff19de68d0	Duration: 227.63 ms	Billed Duration: 228 ms	Memory Size: 5200 MB	Max Memory Used: 142 MB	Init Duration: 671.10 ms
+[------------------- Printing log stream  2021/03/03/[$LATEST]d44bcbe4a87a4ae1a50fc702687a4bbd -----------------]
+21/03/03 19:18:56 21/03/03 10:18:56 INFO : Handler is created!
+21/03/03 19:18:57 START RequestId: 10e0d894-ce67-431d-8b4c-aa6912806ec1 Version: $LATEST
+21/03/03 19:18:57 21/03/03 10:18:57 INFO : Function memory limit 7500 MB
+21/03/03 19:18:57 21/03/03 10:18:57 INFO : Worker info 0 mac address06-65-FE-5B-AD-1C
+21/03/03 19:18:57 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:18:57 processor	: 0
+21/03/03 19:18:57 vendor_id	: GenuineIntel
+21/03/03 19:18:57 cpu family	: 6
+21/03/03 19:18:57 model		: 63
+21/03/03 19:18:57 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:57 stepping	: 2
+21/03/03 19:18:57 microcode	: 0x1
+21/03/03 19:18:57 cpu MHz		: 2500.010
+21/03/03 19:18:57 cache size	: 33792 KB
+21/03/03 19:18:57 physical id	: 0
+21/03/03 19:18:57 siblings	: 5
+21/03/03 19:18:57 core id		: 0
+21/03/03 19:18:57 cpu cores	: 5
+21/03/03 19:18:57 apicid		: 0
+21/03/03 19:18:57 initial apicid	: 0
+21/03/03 19:18:57 fpu		: yes
+21/03/03 19:18:57 fpu_exception	: yes
+21/03/03 19:18:57 cpuid level	: 13
+21/03/03 19:18:57 wp		: yes
+21/03/03 19:18:57 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:57 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:57 bogomips	: 5000.02
+21/03/03 19:18:57 clflush size	: 64
+21/03/03 19:18:57 cache_alignment	: 64
+21/03/03 19:18:57 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:57 power management:
+21/03/03 19:18:57 processor	: 1
+21/03/03 19:18:57 vendor_id	: GenuineIntel
+21/03/03 19:18:57 cpu family	: 6
+21/03/03 19:18:57 model		: 63
+21/03/03 19:18:57 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:57 stepping	: 2
+21/03/03 19:18:57 microcode	: 0x1
+21/03/03 19:18:57 cpu MHz		: 2500.010
+21/03/03 19:18:57 cache size	: 33792 KB
+21/03/03 19:18:57 physical id	: 0
+21/03/03 19:18:57 siblings	: 5
+21/03/03 19:18:57 core id		: 1
+21/03/03 19:18:57 cpu cores	: 5
+21/03/03 19:18:57 apicid		: 1
+21/03/03 19:18:57 initial apicid	: 1
+21/03/03 19:18:57 fpu		: yes
+21/03/03 19:18:57 fpu_exception	: yes
+21/03/03 19:18:57 cpuid level	: 13
+21/03/03 19:18:57 wp		: yes
+21/03/03 19:18:57 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:57 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:57 bogomips	: 5000.02
+21/03/03 19:18:57 clflush size	: 64
+21/03/03 19:18:57 cache_alignment	: 64
+21/03/03 19:18:57 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:57 power management:
+21/03/03 19:18:57 processor	: 2
+21/03/03 19:18:57 vendor_id	: GenuineIntel
+21/03/03 19:18:57 cpu family	: 6
+21/03/03 19:18:57 model		: 63
+21/03/03 19:18:57 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:57 stepping	: 2
+21/03/03 19:18:57 microcode	: 0x1
+21/03/03 19:18:57 cpu MHz		: 2500.010
+21/03/03 19:18:57 cache size	: 33792 KB
+21/03/03 19:18:57 physical id	: 0
+21/03/03 19:18:57 siblings	: 5
+21/03/03 19:18:57 core id		: 2
+21/03/03 19:18:57 cpu cores	: 5
+21/03/03 19:18:57 apicid		: 2
+21/03/03 19:18:57 initial apicid	: 2
+21/03/03 19:18:57 fpu		: yes
+21/03/03 19:18:57 fpu_exception	: yes
+21/03/03 19:18:57 cpuid level	: 13
+21/03/03 19:18:57 wp		: yes
+21/03/03 19:18:57 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:57 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:57 bogomips	: 5000.02
+21/03/03 19:18:57 clflush size	: 64
+21/03/03 19:18:57 cache_alignment	: 64
+21/03/03 19:18:57 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:57 power management:
+21/03/03 19:18:57 processor	: 3
+21/03/03 19:18:57 vendor_id	: GenuineIntel
+21/03/03 19:18:57 cpu family	: 6
+21/03/03 19:18:57 model		: 63
+21/03/03 19:18:57 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:57 stepping	: 2
+21/03/03 19:18:57 microcode	: 0x1
+21/03/03 19:18:57 cpu MHz		: 2500.010
+21/03/03 19:18:57 cache size	: 33792 KB
+21/03/03 19:18:57 physical id	: 0
+21/03/03 19:18:57 siblings	: 5
+21/03/03 19:18:57 core id		: 3
+21/03/03 19:18:57 cpu cores	: 5
+21/03/03 19:18:57 apicid		: 3
+21/03/03 19:18:57 initial apicid	: 3
+21/03/03 19:18:57 fpu		: yes
+21/03/03 19:18:57 fpu_exception	: yes
+21/03/03 19:18:57 cpuid level	: 13
+21/03/03 19:18:57 wp		: yes
+21/03/03 19:18:57 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:57 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:57 bogomips	: 5000.02
+21/03/03 19:18:57 clflush size	: 64
+21/03/03 19:18:57 cache_alignment	: 64
+21/03/03 19:18:57 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:57 power management:
+21/03/03 19:18:57 processor	: 4
+21/03/03 19:18:57 vendor_id	: GenuineIntel
+21/03/03 19:18:57 cpu family	: 6
+21/03/03 19:18:57 model		: 63
+21/03/03 19:18:57 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:18:57 stepping	: 2
+21/03/03 19:18:57 microcode	: 0x1
+21/03/03 19:18:57 cpu MHz		: 2500.010
+21/03/03 19:18:57 cache size	: 33792 KB
+21/03/03 19:18:57 physical id	: 0
+21/03/03 19:18:57 siblings	: 5
+21/03/03 19:18:57 core id		: 4
+21/03/03 19:18:57 cpu cores	: 5
+21/03/03 19:18:57 apicid		: 4
+21/03/03 19:18:57 initial apicid	: 4
+21/03/03 19:18:57 fpu		: yes
+21/03/03 19:18:57 fpu_exception	: yes
+21/03/03 19:18:57 cpuid level	: 13
+21/03/03 19:18:57 wp		: yes
+21/03/03 19:18:57 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:18:57 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:18:57 bogomips	: 5000.02
+21/03/03 19:18:57 clflush size	: 64
+21/03/03 19:18:57 cache_alignment	: 64
+21/03/03 19:18:57 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:18:57 power management:
+21/03/03 19:18:57 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:18:57 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:18:57 MemTotal:        9311260 kB
+21/03/03 19:18:57 MemFree:         9054732 kB
+21/03/03 19:18:57 MemAvailable:    8978660 kB
+21/03/03 19:18:57 Buffers:           26140 kB
+21/03/03 19:18:57 Cached:            96540 kB
+21/03/03 19:18:57 SwapCached:            0 kB
+21/03/03 19:18:57 Active:           114680 kB
+21/03/03 19:18:57 Inactive:          83088 kB
+21/03/03 19:18:57 Active(anon):      75060 kB
+21/03/03 19:18:57 Inactive(anon):      224 kB
+21/03/03 19:18:57 Active(file):      39620 kB
+21/03/03 19:18:57 Inactive(file):    82864 kB
+21/03/03 19:18:57 Unevictable:           0 kB
+21/03/03 19:18:57 Mlocked:               0 kB
+21/03/03 19:18:57 SwapTotal:             0 kB
+21/03/03 19:18:57 SwapFree:              0 kB
+21/03/03 19:18:57 Dirty:               176 kB
+21/03/03 19:18:57 Writeback:             0 kB
+21/03/03 19:18:57 AnonPages:         75136 kB
+21/03/03 19:18:57 Mapped:            58024 kB
+21/03/03 19:18:57 Shmem:               228 kB
+21/03/03 19:18:57 Slab:              18532 kB
+21/03/03 19:18:57 SReclaimable:       6284 kB
+21/03/03 19:18:57 SUnreclaim:        12248 kB
+21/03/03 19:18:57 KernelStack:        1760 kB
+21/03/03 19:18:57 PageTables:         1340 kB
+21/03/03 19:18:57 NFS_Unstable:          0 kB
+21/03/03 19:18:57 Bounce:                0 kB
+21/03/03 19:18:57 WritebackTmp:          0 kB
+21/03/03 19:18:57 CommitLimit:     4655628 kB
+21/03/03 19:18:57 Committed_AS:     602860 kB
+21/03/03 19:18:57 VmallocTotal:   34359738367 kB
+21/03/03 19:18:57 VmallocUsed:           0 kB
+21/03/03 19:18:57 VmallocChunk:          0 kB
+21/03/03 19:18:57 AnonHugePages:         0 kB
+21/03/03 19:18:57 ShmemHugePages:        0 kB
+21/03/03 19:18:57 ShmemPmdMapped:        0 kB
+21/03/03 19:18:57 HugePages_Total:       0
+21/03/03 19:18:57 HugePages_Free:        0
+21/03/03 19:18:57 HugePages_Rsvd:        0
+21/03/03 19:18:57 HugePages_Surp:        0
+21/03/03 19:18:57 Hugepagesize:       2048 kB
+21/03/03 19:18:57 DirectMap4k:       18432 kB
+21/03/03 19:18:57 DirectMap2M:     9525248 kB
+21/03/03 19:18:57 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:18:57 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:18:57 Inter-|   Receive                                                |  Transmit
+21/03/03 19:18:57 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:18:57 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:57 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:57 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:18:57 vinternal_1:       0       0    0    0    0     0          0         0       90       1    0    0    0     0       0          0
+21/03/03 19:18:57 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:18:57 END RequestId: 10e0d894-ce67-431d-8b4c-aa6912806ec1
+21/03/03 19:18:57 REPORT RequestId: 10e0d894-ce67-431d-8b4c-aa6912806ec1	Duration: 229.00 ms	Billed Duration: 230 ms	Memory Size: 7500 MB	Max Memory Used: 148 MB	Init Duration: 650.86 ms
+[------------------- Printing log stream  2021/03/03/[$LATEST]e36ab4742f11423793ae5eade6a65347 -----------------]
+21/03/03 19:14:35 21/03/03 10:14:35 INFO : Handler is created!
+21/03/03 19:14:35 START RequestId: 7452b109-2261-40a5-9b87-6d563041436e Version: $LATEST
+21/03/03 19:14:35 21/03/03 10:14:35 INFO : Function memory limit 1600 MB
+21/03/03 19:14:35 21/03/03 10:14:35 INFO : Worker info 0 mac address16-C0-89-2B-23-0B
+21/03/03 19:14:35 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:14:35 processor	: 0
+21/03/03 19:14:35 vendor_id	: GenuineIntel
+21/03/03 19:14:35 cpu family	: 6
+21/03/03 19:14:35 model		: 63
+21/03/03 19:14:35 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:14:35 stepping	: 2
+21/03/03 19:14:35 microcode	: 0x1
+21/03/03 19:14:35 cpu MHz		: 2500.008
+21/03/03 19:14:35 cache size	: 33792 KB
+21/03/03 19:14:35 physical id	: 0
+21/03/03 19:14:35 siblings	: 2
+21/03/03 19:14:35 core id		: 0
+21/03/03 19:14:35 cpu cores	: 2
+21/03/03 19:14:35 apicid		: 0
+21/03/03 19:14:35 initial apicid	: 0
+21/03/03 19:14:35 fpu		: yes
+21/03/03 19:14:35 fpu_exception	: yes
+21/03/03 19:14:35 cpuid level	: 13
+21/03/03 19:14:35 wp		: yes
+21/03/03 19:14:35 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:14:35 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:14:35 bogomips	: 5000.01
+21/03/03 19:14:35 clflush size	: 64
+21/03/03 19:14:35 cache_alignment	: 64
+21/03/03 19:14:35 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:14:35 power management:
+21/03/03 19:14:35 processor	: 1
+21/03/03 19:14:35 vendor_id	: GenuineIntel
+21/03/03 19:14:35 cpu family	: 6
+21/03/03 19:14:35 model		: 63
+21/03/03 19:14:35 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:14:35 stepping	: 2
+21/03/03 19:14:35 microcode	: 0x1
+21/03/03 19:14:35 cpu MHz		: 2500.008
+21/03/03 19:14:35 cache size	: 33792 KB
+21/03/03 19:14:35 physical id	: 0
+21/03/03 19:14:35 siblings	: 2
+21/03/03 19:14:35 core id		: 1
+21/03/03 19:14:35 cpu cores	: 2
+21/03/03 19:14:35 apicid		: 1
+21/03/03 19:14:35 initial apicid	: 1
+21/03/03 19:14:35 fpu		: yes
+21/03/03 19:14:35 fpu_exception	: yes
+21/03/03 19:14:35 cpuid level	: 13
+21/03/03 19:14:35 wp		: yes
+21/03/03 19:14:35 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:14:35 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:14:35 bogomips	: 5000.01
+21/03/03 19:14:35 clflush size	: 64
+21/03/03 19:14:35 cache_alignment	: 64
+21/03/03 19:14:35 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:14:35 power management:
+21/03/03 19:14:35 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:14:35 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:14:35 MemTotal:        3237820 kB
+21/03/03 19:14:35 MemFree:         3037552 kB
+21/03/03 19:14:35 MemAvailable:    3015988 kB
+21/03/03 19:14:35 Buffers:           17120 kB
+21/03/03 19:14:35 Cached:            95292 kB
+21/03/03 19:14:35 SwapCached:            0 kB
+21/03/03 19:14:35 Active:            87584 kB
+21/03/03 19:14:35 Inactive:          82868 kB
+21/03/03 19:14:35 Active(anon):      57952 kB
+21/03/03 19:14:35 Inactive(anon):      220 kB
+21/03/03 19:14:35 Active(file):      29632 kB
+21/03/03 19:14:35 Inactive(file):    82648 kB
+21/03/03 19:14:35 Unevictable:           0 kB
+21/03/03 19:14:35 Mlocked:               0 kB
+21/03/03 19:14:35 SwapTotal:             0 kB
+21/03/03 19:14:35 SwapFree:              0 kB
+21/03/03 19:14:35 Dirty:               188 kB
+21/03/03 19:14:35 Writeback:             0 kB
+21/03/03 19:14:35 AnonPages:         58036 kB
+21/03/03 19:14:35 Mapped:            57300 kB
+21/03/03 19:14:35 Shmem:               224 kB
+21/03/03 19:14:35 Slab:              14052 kB
+21/03/03 19:14:35 SReclaimable:       4836 kB
+21/03/03 19:14:35 SUnreclaim:         9216 kB
+21/03/03 19:14:35 KernelStack:        1312 kB
+21/03/03 19:14:35 PageTables:         1288 kB
+21/03/03 19:14:35 NFS_Unstable:          0 kB
+21/03/03 19:14:35 Bounce:                0 kB
+21/03/03 19:14:35 WritebackTmp:          0 kB
+21/03/03 19:14:35 CommitLimit:     1618908 kB
+21/03/03 19:14:35 Committed_AS:     268544 kB
+21/03/03 19:14:35 VmallocTotal:   34359738367 kB
+21/03/03 19:14:35 VmallocUsed:           0 kB
+21/03/03 19:14:35 VmallocChunk:          0 kB
+21/03/03 19:14:35 AnonHugePages:         0 kB
+21/03/03 19:14:35 ShmemHugePages:        0 kB
+21/03/03 19:14:35 ShmemPmdMapped:        0 kB
+21/03/03 19:14:35 HugePages_Total:       0
+21/03/03 19:14:35 HugePages_Free:        0
+21/03/03 19:14:35 HugePages_Rsvd:        0
+21/03/03 19:14:35 HugePages_Surp:        0
+21/03/03 19:14:35 Hugepagesize:       2048 kB
+21/03/03 19:14:35 DirectMap4k:       20480 kB
+21/03/03 19:14:35 DirectMap2M:     3287040 kB
+21/03/03 19:14:35 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:14:35 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:14:35 Inter-|   Receive                                                |  Transmit
+21/03/03 19:14:35 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:14:35 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:14:35 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:14:35 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:14:35 vinternal_1:       0       0    0    0    0     0          0         0       90       1    0    0    0     0       0          0
+21/03/03 19:14:35 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:14:35 END RequestId: 7452b109-2261-40a5-9b87-6d563041436e
+21/03/03 19:14:35 REPORT RequestId: 7452b109-2261-40a5-9b87-6d563041436e	Duration: 226.34 ms	Billed Duration: 227 ms	Memory Size: 1600 MB	Max Memory Used: 130 MB	Init Duration: 842.83 ms
+[------------------- Printing log stream  2021/03/03/[$LATEST]fc02555d43dc4672a901bf7c66fb971e -----------------]
+21/03/03 19:15:46 21/03/03 10:15:46 INFO : Handler is created!
+21/03/03 19:15:46 START RequestId: ca62a8c7-bcd3-42a2-8b8b-c2eddc9f189b Version: $LATEST
+21/03/03 19:15:46 21/03/03 10:15:46 INFO : Function memory limit 3500 MB
+21/03/03 19:15:46 21/03/03 10:15:46 INFO : Worker info 0 mac address8A-55-D3-A1-AF-76
+21/03/03 19:15:46 --------- Start printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:15:46 processor	: 0
+21/03/03 19:15:46 vendor_id	: GenuineIntel
+21/03/03 19:15:46 cpu family	: 6
+21/03/03 19:15:46 model		: 63
+21/03/03 19:15:46 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:15:46 stepping	: 2
+21/03/03 19:15:46 microcode	: 0x1
+21/03/03 19:15:46 cpu MHz		: 2500.012
+21/03/03 19:15:46 cache size	: 33792 KB
+21/03/03 19:15:46 physical id	: 0
+21/03/03 19:15:46 siblings	: 3
+21/03/03 19:15:46 core id		: 0
+21/03/03 19:15:46 cpu cores	: 3
+21/03/03 19:15:46 apicid		: 0
+21/03/03 19:15:46 initial apicid	: 0
+21/03/03 19:15:46 fpu		: yes
+21/03/03 19:15:46 fpu_exception	: yes
+21/03/03 19:15:46 cpuid level	: 13
+21/03/03 19:15:46 wp		: yes
+21/03/03 19:15:46 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:15:46 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:15:46 bogomips	: 5000.02
+21/03/03 19:15:46 clflush size	: 64
+21/03/03 19:15:46 cache_alignment	: 64
+21/03/03 19:15:46 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:15:46 power management:
+21/03/03 19:15:46 processor	: 1
+21/03/03 19:15:46 vendor_id	: GenuineIntel
+21/03/03 19:15:46 cpu family	: 6
+21/03/03 19:15:46 model		: 63
+21/03/03 19:15:46 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:15:46 stepping	: 2
+21/03/03 19:15:46 microcode	: 0x1
+21/03/03 19:15:46 cpu MHz		: 2500.012
+21/03/03 19:15:46 cache size	: 33792 KB
+21/03/03 19:15:46 physical id	: 0
+21/03/03 19:15:46 siblings	: 3
+21/03/03 19:15:46 core id		: 1
+21/03/03 19:15:46 cpu cores	: 3
+21/03/03 19:15:46 apicid		: 1
+21/03/03 19:15:46 initial apicid	: 1
+21/03/03 19:15:46 fpu		: yes
+21/03/03 19:15:46 fpu_exception	: yes
+21/03/03 19:15:46 cpuid level	: 13
+21/03/03 19:15:46 wp		: yes
+21/03/03 19:15:46 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:15:46 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:15:46 bogomips	: 5000.02
+21/03/03 19:15:46 clflush size	: 64
+21/03/03 19:15:46 cache_alignment	: 64
+21/03/03 19:15:46 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:15:46 power management:
+21/03/03 19:15:46 processor	: 2
+21/03/03 19:15:46 vendor_id	: GenuineIntel
+21/03/03 19:15:46 cpu family	: 6
+21/03/03 19:15:46 model		: 63
+21/03/03 19:15:46 model name	: Intel(R) Xeon(R) Processor @ 2.50GHz
+21/03/03 19:15:46 stepping	: 2
+21/03/03 19:15:46 microcode	: 0x1
+21/03/03 19:15:46 cpu MHz		: 2500.012
+21/03/03 19:15:46 cache size	: 33792 KB
+21/03/03 19:15:46 physical id	: 0
+21/03/03 19:15:46 siblings	: 3
+21/03/03 19:15:46 core id		: 2
+21/03/03 19:15:46 cpu cores	: 3
+21/03/03 19:15:46 apicid		: 2
+21/03/03 19:15:46 initial apicid	: 2
+21/03/03 19:15:46 fpu		: yes
+21/03/03 19:15:46 fpu_exception	: yes
+21/03/03 19:15:46 cpuid level	: 13
+21/03/03 19:15:46 wp		: yes
+21/03/03 19:15:46 flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid smap xsaveopt arat md_clear arch_capabilities
+21/03/03 19:15:46 bugs		: cpu_meltdown spectre_v1 spectre_v2 spec_store_bypass l1tf mds swapgs
+21/03/03 19:15:46 bogomips	: 5000.02
+21/03/03 19:15:46 clflush size	: 64
+21/03/03 19:15:46 cache_alignment	: 64
+21/03/03 19:15:46 address sizes	: 46 bits physical, 48 bits virtual
+21/03/03 19:15:46 power management:
+21/03/03 19:15:46 --------- End printing command cat /proc/cpuinfo worker id 0 ---------
+21/03/03 19:15:46 --------- Start printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:15:46 MemTotal:        5652848 kB
+21/03/03 19:15:46 MemFree:         5426468 kB
+21/03/03 19:15:46 MemAvailable:    5360848 kB
+21/03/03 19:15:46 Buffers:           20096 kB
+21/03/03 19:15:46 Cached:            95860 kB
+21/03/03 19:15:46 SwapCached:            0 kB
+21/03/03 19:15:46 Active:           102012 kB
+21/03/03 19:15:46 Inactive:          82600 kB
+21/03/03 19:15:46 Active(anon):      68648 kB
+21/03/03 19:15:46 Inactive(anon):      220 kB
+21/03/03 19:15:46 Active(file):      33364 kB
+21/03/03 19:15:46 Inactive(file):    82380 kB
+21/03/03 19:15:46 Unevictable:           0 kB
+21/03/03 19:15:46 Mlocked:               0 kB
+21/03/03 19:15:46 SwapTotal:             0 kB
+21/03/03 19:15:46 SwapFree:              0 kB
+21/03/03 19:15:46 Dirty:               180 kB
+21/03/03 19:15:46 Writeback:             0 kB
+21/03/03 19:15:46 AnonPages:         68584 kB
+21/03/03 19:15:46 Mapped:            57472 kB
+21/03/03 19:15:46 Shmem:               224 kB
+21/03/03 19:15:46 Slab:              15912 kB
+21/03/03 19:15:46 SReclaimable:       5128 kB
+21/03/03 19:15:46 SUnreclaim:        10784 kB
+21/03/03 19:15:46 KernelStack:        1456 kB
+21/03/03 19:15:46 PageTables:         1324 kB
+21/03/03 19:15:46 NFS_Unstable:          0 kB
+21/03/03 19:15:46 Bounce:                0 kB
+21/03/03 19:15:46 WritebackTmp:          0 kB
+21/03/03 19:15:46 CommitLimit:     2826424 kB
+21/03/03 19:15:46 Committed_AS:     384532 kB
+21/03/03 19:15:46 VmallocTotal:   34359738367 kB
+21/03/03 19:15:46 VmallocUsed:           0 kB
+21/03/03 19:15:46 VmallocChunk:          0 kB
+21/03/03 19:15:46 AnonHugePages:         0 kB
+21/03/03 19:15:46 ShmemHugePages:        0 kB
+21/03/03 19:15:46 ShmemPmdMapped:        0 kB
+21/03/03 19:15:46 HugePages_Total:       0
+21/03/03 19:15:46 HugePages_Free:        0
+21/03/03 19:15:46 HugePages_Rsvd:        0
+21/03/03 19:15:46 HugePages_Surp:        0
+21/03/03 19:15:46 Hugepagesize:       2048 kB
+21/03/03 19:15:46 DirectMap4k:       23552 kB
+21/03/03 19:15:46 DirectMap2M:     5804032 kB
+21/03/03 19:15:46 --------- End printing command cat /proc/meminfo worker id 0 ---------
+21/03/03 19:15:46 --------- Start printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:15:46 Inter-|   Receive                                                |  Transmit
+21/03/03 19:15:46 face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+21/03/03 19:15:46 telemetry1_sb:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:15:46 vtarget_1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:15:46 vinternal_1:       0       0    0    0    0     0          0         0       90       1    0    0    0     0       0          0
+21/03/03 19:15:46 lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+21/03/03 19:15:46 --------- End printing command cat /proc/net/dev worker id 0 ---------
+21/03/03 19:15:46 END RequestId: ca62a8c7-bcd3-42a2-8b8b-c2eddc9f189b
+21/03/03 19:15:46 REPORT RequestId: ca62a8c7-bcd3-42a2-8b8b-c2eddc9f189b	Duration: 227.72 ms	Billed Duration: 228 ms	Memory Size: 3500 MB	Max Memory Used: 141 MB	Init Duration: 707.14 ms
